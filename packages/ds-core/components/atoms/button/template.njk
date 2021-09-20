@@ -1,0 +1,11 @@
+{% from "icon/macro.njk" import icon %}
+
+<button type="button" class="btn{{ ' btn--'+params.type if params.type }}{{ ' btn--'+params.size if params.size }}{{ ' btn--icon-only' if params.iconOnly }}{{ ' '+params.class if params.class }}"{{ ' disabled' if params.disabled }}>
+  {%- if params.iconOnly %}
+    {{ icon({ name: params.iconOnly }) }}
+  {% else %}
+    {%- if params.prefix %}{{ icon({ name: params.prefix, class: 'btn__prefix' }) }}{% endif -%}
+    {{ params.label }}
+    {%- if params.suffix %}{{ icon({ name: params.suffix, class: 'btn__suffix' }) }}{% endif -%}
+  {% endif -%}
+</button>

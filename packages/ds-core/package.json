@@ -1,0 +1,12 @@
+{
+  "name": "@my-company/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "David Bautista",
+  "license": "ISC",
+  "devDependencies": {
+    "js-beautify": "^1.14.0"
+  }
+}

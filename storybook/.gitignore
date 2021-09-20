@@ -1,0 +1,17 @@
+# Config files
+.npmrc
+
+# Cache folders
+.cache
+
+# Editor
+.DS_Store
+*.swp
+.idea
+.vscode
+
+# Dependency directory
+node_modules
+
+# Directories generated for publishing in npm
+lib/

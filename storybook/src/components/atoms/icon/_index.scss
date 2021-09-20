@@ -1,0 +1,9 @@
+@use '../../../styles/core/color';
+@use '../../../styles/core/font';
+@use '../../../styles/core/icon';
+@use '../../../styles/core/placeholder';
+@use '../../../styles/core/functions' as *;
+
+.icon {
+  @extend %icon-styles;
+}

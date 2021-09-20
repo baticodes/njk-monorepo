@@ -1,0 +1,34 @@
+{
+  "name": "@my-company/storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "David Bautista",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/builder-webpack5": "^6.3.8",
+    "@storybook/html": "^6.3.8",
+    "@storybook/manager-webpack5": "^6.3.8",
+    "@storybook/preset-scss": "^1.0.3",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "js-beautify": "^1.14.0",
+    "nunjucks": "^3.2.3",
+    "sass": "^1.40.1",
+    "sass-loader": "^12.1.0",
+    "simple-nunjucks-loader": "^3.2.0",
+    "style-loader": "^3.2.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

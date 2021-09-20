@@ -1,0 +1,2 @@
+{# {% macro Icon(name, class = false, title = false) %} #}
+<i class="icon{{ ' ' + params.class if params.class }}" aria-hidden="true"{% if params.title %} title="{{params.title}}"{% endif %}>{{ params.name }}</i>
